@@ -31,7 +31,7 @@ header nav ul {
     gap: .5rem;
 }
 
-ul li a {
+header nav ul li a {
     text-decoration: none;
     color: black;
     border-left: 2px solid #98DEDE;
@@ -40,8 +40,9 @@ ul li a {
     transition: .3s;
 }
 
-ul li a:hover {
+header nav ul li a:hover {
     text-decoration: underline;
+    color:black;
 }
 
 header nav ul li:first-child a {
@@ -136,28 +137,11 @@ footer section div a {
     text-decoration: none;
     color: white;
 }
-
+footer section div a:hover {
+    text-decoration: underline;
+    color: white;
+}
 /* Estilo index.html */
-main section .carrousel {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 3rem;
-    gap: 1rem;
-    padding: .5rem;
-    flex-wrap: wrap;
-}
-
-
-@media screen and (max-width:1230px) {
-    main section .carrousel {
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-    } 
-    main section .carrousel img {
-        width: 100%;
-    }
-}
 
 section.cards {
     display: grid;
@@ -240,11 +224,20 @@ section.cards {
     justify-content: center;
     gap: 1rem;
     padding: .5rem;
+
 }
+
 
 .sectionLibros aside ul li a {
     border-left: none;
     display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.sectionLibros aside ul li a:hover {
+    text-decoration: underline;
 }
 
 div.libros {
@@ -269,7 +262,19 @@ div.libros {
     }
 
 }
+main .sectionLibros .libros nav li{
+    display: inline !important;
+}
 
+main .sectionLibros .libros nav li a{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+main .sectionLibros .libros nav li a:hover{
+    text-decoration: underline;
+}
 
 /* Estilo club.html */
 .sectionClub {
