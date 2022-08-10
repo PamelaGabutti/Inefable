@@ -7,33 +7,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inefable - Librería</title>
     <link rel="icon" href="https://fav.farm/📚" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <header>
-        <div>
-            <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+        <div id="header">
+            <a href=""><img src="../images/logo.png" alt="logo"></a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./libros.html">Libros</a></li>
-                <li><a href="./club.html">Club de Lectura</a></li>
-                <li><a href="./nosotros.html">Acerca de nosotros</a></li>
-                <li><a href="./contacto.html">Contactanos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg align-items-center" id="navbar">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto">
+                        <ul>
+                            <li><a class="nav-link active" aria-current="page" href="../index.html">Inicio</a></li>
+                            <li><a class="nav-link" href="./libros.html">Libros</a></li>
+                            <li><a class="nav-link" href="./club.html">Club de Lectura</a></li>
+                            <li><a class="nav-link" href="./nosotros.html">Acerca de nosotros</a></li>
+                            <li><a class="nav-link" href="./contacto.html">Contactanos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <h1>Club de Lectura</h1>
         <section class="sectionClub">
-                <img src="../images/club.jpg" alt="persona leyendo">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, mollitia? Officiis repellendus ut modi atque quam rem totam animi autem dolores sit? Ratione temporibus quo provident alias! Quas, necessitatibus nam?
-                Excepturi nostrum tempore earum unde, velit aperiam odit dolorem dignissimos consequatur, molestiae libero! Eius nostrum error, doloribus ut rem minima cumque, temporibus reprehenderit pariatur eligendi cum placeat illum recusandae blanditiis.
-                Nemo natus autem doloribus voluptates officia corrupti aspernatur libero qui ab incidunt labore eligendi cumque corporis aperiam, iusto perferendis expedita hic, minima voluptate minus vel alias dolorem quas! Cum, doloribus?
-                Doloremque ex fugiat unde suscipit? Dignissimos cumque mollitia dolore explicabo perferendis neque quia harum recusandae est doloremque aut dicta temporibus rerum eos ipsa officia voluptates facere natus, quos quidem amet.
-                Commodi assumenda, ab at consequuntur dolorum cum ratione numquam sequi doloribus laboriosam totam aliquam sed facere, expedita error quisquam reprehenderit saepe ipsam. Est quidem itaque at numquam omnis accusamus ut.</p>
+            <img src="../images/club.jpg" alt="persona leyendo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, mollitia? Officiis repellendus ut
+                modi atque quam rem totam animi autem dolores sit? Ratione temporibus quo provident alias! Quas,
+                necessitatibus nam?
+                Excepturi nostrum tempore earum unde, velit aperiam odit dolorem dignissimos consequatur, molestiae
+                libero! Eius nostrum error, doloribus ut rem minima cumque, temporibus reprehenderit pariatur eligendi
+                cum placeat illum recusandae blanditiis.
+                Nemo natus autem doloribus voluptates officia corrupti aspernatur libero qui ab incidunt labore eligendi
+                cumque corporis aperiam, iusto perferendis expedita hic, minima voluptate minus vel alias dolorem quas!
+                Cum, doloribus?
+                Doloremque ex fugiat unde suscipit? Dignissimos cumque mollitia dolore explicabo perferendis neque quia
+                harum recusandae est doloremque aut dicta temporibus rerum eos ipsa officia voluptates facere natus,
+                quos quidem amet.
+                Commodi assumenda, ab at consequuntur dolorum cum ratione numquam sequi doloribus laboriosam totam
+                aliquam sed facere, expedita error quisquam reprehenderit saepe ipsam. Est quidem itaque at numquam
+                omnis accusamus ut.</p>
             <form class="sectionClubUnirse">
                 <label for="clubLectura">Si querés formar parte, dejános tu correo electrónico</label>
                 <input type="email" name="clubLectura" placeholder="Ingrese su correo electrónico">
@@ -56,6 +78,7 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -7,7 +7,7 @@ body {
     font-family: 'Lancelot', cursive;
 }
 
-header div {
+header #header {
     margin: 0;
     background-color: #98DEDE;
     display: flex;
