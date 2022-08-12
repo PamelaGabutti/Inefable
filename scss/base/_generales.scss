@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Lancelot', cursive;
+}
+
+main {
+    min-height: 50vh;
+}
+
+h1 {
+    color: #BCAFA6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1.5rem;
+    font-weight: lighter;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+@media screen and (max-width:1230px) {
+    h1 {
+        letter-spacing: 1rem;
+    }
+}
+
+h2 {
+    background-color: #98DEDE;
+    letter-spacing: 1.5rem;
+    padding: 1rem;
+}
+
+h3 {
+    font-size: 2rem;
+    letter-spacing: 1rem;
+}
+
+img {
+    border-radius: .2rem;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: .5rem 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: .3s;
+    &:hover {
+        background-color: #98DEDE;
+        border: 1px solid transparent;
+    }
+}
+

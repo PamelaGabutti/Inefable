@@ -1,0 +1,49 @@
+header {
+    #header {
+        margin: 0;
+        background-color: #98DEDE;
+        display: flex;
+        justify-content: center;
+    }
+
+    div {
+        a {
+            text-align: center;
+
+            img {
+                width: 90%;
+                max-width: 800px;
+            }
+        }
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: .5rem;
+
+            li {
+                &:first-child a {
+                    border-left: none;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    border-left: 2px solid #98DEDE;
+                    padding: 0.5rem;
+                    font-size: 1.5rem;
+                    transition: .3s;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
