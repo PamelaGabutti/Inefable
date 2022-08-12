@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
+@import "./variables";
 *{
     box-sizing: border-box;
 }
@@ -12,7 +13,7 @@ main {
 }
 
 h1 {
-    color: #BCAFA6;
+    color: $color-secundario;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 1.5rem;
     font-weight: lighter;
@@ -28,7 +29,7 @@ h1 {
 }
 
 h2 {
-    background-color: #98DEDE;
+    background-color: $color-principal;
     letter-spacing: 1.5rem;
     padding: 1rem;
 }
@@ -50,8 +51,20 @@ button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     transition: .3s;
     &:hover {
-        background-color: #98DEDE;
+        background-color: $color-principal;
         border: 1px solid transparent;
     }
+}
+
+input,
+select,
+textarea {
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    background-color: $color-principal;
+    text-align: left;
 }
 
