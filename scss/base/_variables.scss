@@ -1,2 +1,12 @@
 $color-principal: #98DEDE;
 $color-secundario: #BCAFA6;
+
+//Mapa
+
+$boton: (
+    color-fondo: white,
+    borde: 1px solid black,
+    radio-borde: 0.5rem,
+    padding: .5rem 1rem,
+    transicion: .3s
+)

@@ -44,12 +44,12 @@ img {
 }
 
 button {
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 0.5rem;
-    padding: .5rem 1rem;
+    background-color: map-get($boton, color-fondo);
+    border: map-get($boton, borde);
+    border-radius: map-get($boton, radio-borde);
+    padding: map-get($boton, padding);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    transition: .3s;
+    transition: map-get($boton, transicion);
     &:hover {
         background-color: $color-principal;
         border: 1px solid transparent;
